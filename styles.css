@@ -17,8 +17,16 @@ html, body{
 }
 #content{
 	background-color: green;
-	width: 100%;
-	height: 100vh;
+	width: 80%;
+	height: 85vh;
+	float: left;
+}
+#aboutme{
+	background-color: red;
+	float: right;
+	width: 20%;
+	height: 85vh;
+
 }
 h1{
 	margin: 0;
