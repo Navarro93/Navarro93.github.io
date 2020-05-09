@@ -53,6 +53,8 @@ hr {
 	font-family: Avenir;
 	font-size: 16px;
 	color: rgba(112,112,112,1);
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 @media only screen and (min-width: 768px) {
