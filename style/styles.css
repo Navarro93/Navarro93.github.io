@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Avenir';
+    font-weight: normal;
+    font-style: normal;
+    font-variant:normal;
+    src: url('../fonts/AvenirLTStd-Book.otf') format('opentype');
+}
+
 .title {
 	font-size: 70px;
 	text-align: center;
