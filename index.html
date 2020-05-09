@@ -14,18 +14,15 @@
 			Data Science Title
 		</div>
 		<img class = "search" src = "img/search-icon.png">
-		<div class = "about-me">
+		<div class = "about-me" id = "about-me" onclick="changeStateProfile()">
 			About me
 		</div>
 		<hr>
 	</div>
 
-	<div class = "post">
-		<img class = "post-image" src = "img/img-p1.png">
-		<p class = "post-title">
-			Which country is doing better against Covid-19?
-		</p>
-	</div>
+	<aside class = "profile" id = "profile">
+		<img class = "profile-photo" src = "img/profile-photo.png">
+	</aside>
 
 	<div class = "post">
 		<img class = "post-image" src = "img/img-p1.png">
@@ -40,6 +37,27 @@
 			Which country is doing better against Covid-19?
 		</p>
 	</div>
+
+	<div class = "post">
+		<img class = "post-image" src = "img/img-p1.png">
+		<p class = "post-title">
+			Which country is doing better against Covid-19?
+		</p>
+	</div>
+
+	<script>
+		function changeStateProfile() {
+			var pf = document.getElementById("profile");
+			if (window.getComputedStyle(pf).display === "none") {
+				document.getElementById("profile").style.display = "block";
+				document.getElementById("about-me").style.backgroundColor = "rgba(233,233,233,1)";
+			} else {
+				document.getElementById("profile").style.display = "none";
+				document.getElementById("about-me").style.backgroundColor = "white";
+			}
+
+		}
+	</script>
 
 </body>
 </html>
