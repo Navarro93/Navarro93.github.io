@@ -9,7 +9,6 @@ html, body {
 
 a {
 	text-decoration: none;
-	display: block;
 }
 
 .title {
@@ -20,6 +19,7 @@ a {
 }
 #home {
 	width: 60%;
+	display: block;
 }
 .search {
 	position: absolute;
@@ -94,6 +94,7 @@ hr {
 .post-link {
 	margin: auto;
 	width: 100%;
+	display: block;
 }
 .post-image {
 	width: 100%;
