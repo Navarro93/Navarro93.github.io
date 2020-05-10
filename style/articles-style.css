@@ -8,9 +8,17 @@ p {
 	font-size: 200px;
 }
 
+.article {
+	width: 90%;
+	margin: auto;
+}
+
 @media only screen and (min-width: 768px) {
 	h3 {
 		font-size: 30px;
+	}
+	.article {
+		width: 60%;
 	}
 }
 
