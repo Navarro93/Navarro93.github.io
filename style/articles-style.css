@@ -4,8 +4,13 @@ h3 {
 	text-align: center;
 }
 
+h5 {
+	font-family: 'Avenir';
+	font-weight: normal;
+}
+
 p {
-	font-size: 200px;
+	font-size: 10px;
 }
 
 .article {
