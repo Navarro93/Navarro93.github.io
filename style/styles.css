@@ -124,6 +124,9 @@ hr {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.linkedin-logo {
+		width: 30px;
+	}
 	.post {
 		width: 60%;
 		margin-top: 40px;
@@ -156,6 +159,9 @@ hr {
 		font-size: 20px;
 		padding-left: 30px;
 		padding-right: 30px;
+	}
+	.linkedin-logo {
+		width: 40px;
 	}
 	.post-title {
 		font-size: 30px;
