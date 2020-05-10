@@ -70,8 +70,14 @@ hr {
 	margin-right: auto;
 	margin-top: 30px;
 }
+.linkedin-logo {
+	margin-top: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 17px;
+}
 .profile-description {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 .post {
 	width: 90%;
