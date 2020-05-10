@@ -7,11 +7,6 @@ html, body {
 	height: 100%;
 }
 
-h3 {
-	font-family: 'Avenir';
-	font-weight: normal;
-}
-
 a {
 	text-decoration: none;
 	display: block;
@@ -159,7 +154,7 @@ hr {
 }
 
 @media only screen and (min-width: 1024px) {
-		.title {
+	.title {
 		font-size: 70px;
 	}
 	.search {
